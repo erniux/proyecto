@@ -1,0 +1,343 @@
+{
+  "base_url": "https://piano.qa.cart.site/",
+  "user_name": "etercero",
+  "password": "Tecnologia01*",
+  "parent_tenant": "Cart",
+  "parent_tenant_code": "Cart",
+  "child_tenant": "TEA Living",
+  "tenant_code": "TEA",
+  "facility_code": "FBF01",
+  "facility_name": "Dallas",
+  
+  "workflow_type": "WMS",
+  "director_name": "Joseph Wheeler",
+  "address1": "10300 Sanden Dr",
+  "address2": "Ste 101",
+  "zipcode": "75238",
+  "phone_number": "1234567890",
+  "facility_days": [
+                    "monday", "tuesday", "wednesday", 
+                    "thursday", "friday", "saturday", 
+                    "sunday"
+                  ],
+  "facility_active": "Yes",
+  "pick_ticket_generation": "Yes",
+  "enable_alocation": "Yes",
+  "carts_before_batch": "1",
+  "first_name": "John",
+  "last_name": "Tester",
+  "business_type_code": "FLAT",
+  "maitain_inventory": "Yes",
+  "inventory_priority": "1",
+  "source_code": "web",
+  "offer_code": "web",
+  "allocation_facility": "Dallas",
+  "ship_code": [
+    "FGND",
+    "ROUT"
+  ],
+  "child_new_tenant": "Ann Lorain",
+  "tenant_new_code": "ANN",
+  "tenant_new_role": "User",
+  "time_zone": "America/New_York",
+
+  "ship_code_description": [
+    "FedEx Ground",
+    "Routing Required"
+  ],
+  "ship_code_rush": [
+    "No",
+    "No"
+  ],
+  "ship_code_pack_and_hold": [
+    "No",
+    "Yes"
+  ],
+  "ship_code_flat_rate_min": [
+    "1",
+    "1"
+  ],
+  "ship_code_flat_rate_max": [
+    "1000",
+    "1000"
+  ],
+  "ship_code_flat_rate_cost": [
+    "5",
+    "1"
+  ],
+  "billing_type": "B2B",
+  "transaction_reasons": [
+    "Receipt",
+    "Return",
+    "Adjustment",
+    "End of Day"
+  ],
+  "control_settings": [
+    {
+      "po":["PO",1,true, "child"],
+      "customer":["CUST",1,true, "child"],
+      "Order":["OR",1,true, "child"],
+      "sku_barcode":["",1,true, "child"],
+      "return_container":["",1,false, "child"],
+      "project":["",1,true, "parent"],
+      "carton":["",1,true, "child"],
+      "time_clock_id":["",1,true, "parent"],
+      "customer_invoice_number":["",1,false, "child"],
+      "asn_case_barcode":["ASN",1,true, "parent"],
+      "consolidation_load_number":["",1,false, "child"],
+      "happy_returns_container":["",1,false, "child"],
+      "invoice_number":["INV",1,true, "child"],
+      "3pl_return_container_barcode":["",1, false, "child"],
+      "Invata_sku_preferene":["",1, false, "child"]
+    }
+  ],
+  
+  "allocation_rule": "Default Allocation",
+  "carrier_code": "FedEx",
+  "item": "ITEM001",
+  "sku": "SKU0001",
+  "sku2": "SKU0002",
+  "customer_number": "0",
+  "customer_first_name": "Dbrbgxanqj",
+  "customer_last_name": "Ngnxadwekaxdnmmvnwgza",
+  "customer_email": "ajnmt@RuskP6.lmk",
+  "customer_phone_number": "2397143138",
+  "customer_address_line1": "1 YNJPNGUABWPSZE",
+  "customer_city": "New York",
+  "customer_state": "New York",
+  "customer_zip_code": "10001",
+  "customer_country": "United States",
+  "customer_company": "QTTRPQANCGYK",
+  "container": "C1",
+  "receiving_facility": "Dallas",
+  "quantity_to_receive": "1000",
+  "quantity_to_allocate": "1000",
+  "quantity_to_order": "2",
+  "skus": [
+    "884448256157",
+    "884448257154",
+    "884448259011",
+    "828432071234",
+    "828432071159",
+    "728795375034",
+    "884448256249",
+    "884448259479",
+    "884448256607",
+    "884448256577",
+    "884448257024",
+    "884448253439",
+    "884448256973",
+    "884448253620",
+    "884448253576",
+    "884448256669",
+    "884448256881",
+    "884448256737",
+    "884448253507",
+    "884448256744"
+  ],
+  "locations_barcode": [
+    "T383201B",
+    "D274502B",
+    "T061004A",
+    "A423502D",
+    "A561302B",
+    "S682103E",
+    "T152506B",
+    "A401202E",
+    "T411706B",
+    "T301704C",
+    "T421406A",
+    "T591103D",
+    "A543404D",
+    "T421004A",
+    "A553202D",
+    "A443903C",
+    "S681202A",
+    "S682301D",
+    "S681502G",
+    "S681704E"
+  ],
+  "cart_code": [
+    "Super",
+    "20 Bin",
+    "LP"
+  ],
+  "cart_description": [
+    "Super Tote",
+    "20 Bin",
+    "Label Packing",
+    "4x240"
+  ],
+  "is_supertote": [
+    "Yes",
+    "No",
+    "No",
+    "No"
+  ],
+  "is_exception_cart": [
+    "No",
+    "No",
+    "No",
+    "No"
+  ],
+  "is_identipacking_cart": [
+    "No",
+    "No",
+    "No",
+    "No"
+  ],
+  "is_pick_module_cart":  [
+    "No",
+    "No",
+    "No", 
+    "No"
+  ],
+  "is_b2b_cart": [
+    "No",
+    "No",
+    "No",
+    "No"
+  ],
+  "is_label_packing_cart": [
+    "No",
+    "No",
+    "Yes",
+    "No"
+  ],
+  "is_pick_module": [
+    "No",
+    "No",
+    "No",
+    "No"
+  ],
+  "is_jit_cart": [
+    "No",
+    "No",
+    "No",
+    "No"
+  ],
+  "is_replenishment_only": [
+    "No",
+    "No",
+    "No",
+    "No"
+  ],
+  "is_prepack_container": [
+    "No",
+    "No",
+    "No",
+    "No"
+  ],
+  "rows": [
+    "50",
+    "10",
+    "10",
+    "2"
+
+  ],
+  "cols": [
+    "1",
+    "10",
+    "10",
+    "2"
+  ],
+  "units_per_bin": [
+    "1",
+    "10",
+    "10",
+    "240"
+  ],
+  "workstation_facility": "Dallas",
+  "workstation_types": [
+    "Manifesting",
+    "Packing",
+    "Receiving",
+    "Security",
+    "Time Clock"
+  ],
+  "ip_address": "8.8.8.8",
+  "label_ip_address": "8.8.8.8",
+  "label_port": "9100",
+  "custom_ip_address": "8.8.8.8",
+  "custom_port": "9100",
+  "workstation_active": "Yes",
+  "workstation_attributes": "{'qz_scale_enabled':false}",
+  "paper_tray_tenants": "DEFAULT",
+  "paper_tray_media": "DEFAULT",
+  "order_number": "72",
+  "pick_ticket_number": "1004219011",
+  "exception_reasons": [
+    "WI",
+    "NT",
+    "IL",
+    "BI"
+  ],
+  "exception_reason_desc": [
+    "Worng Item",
+    "Not There",
+    "Invalid Location",
+    "Barcode Invalid"
+  ],
+  "cancelation_reasons_code": [
+    "1000", "2000", "3000", "4000", "5000", "6000"
+  ],
+  "cancelation_reasons_desc": [
+    "Suspected fraud transaction", "Address verification failure", "Product not available", "Customer request",  
+    "Credit card failure", "Unfulfillment"
+  ],
+  "resoulution_reasons_code": [
+    "01"
+  ],
+  "resolution_reasons_desc": [
+    "Resolved by Triage"
+  ],
+  "appeasement_type_code": [
+    "101", "102"
+  ],
+  "appeasement_type_desc": [
+    "Credit Shipping",
+    "Debit Smartpost Return"
+  ],
+  "appeasement_type": [
+    "Credit", "Debit"
+  ],
+  "hold_reasons_code": [
+    "1001", "1002", "1003", "1004" 
+  ],
+  "hold_reasons_desc": [
+    "Accounting", "Supervisor Hold", "Fraud Check", "Parent Authorization"
+  ],
+  "disposition_codes": [
+    "GD", "RC", "SC", "SO", "VN"
+  ],
+  "disposition_codes_desc": [
+    "RETURN TO GOOD STOCK", "RECOVERABLE", "SCRAP", "RETURN TO SELL OFF", "RETURN TO VENDOR"
+  ],
+  "override_reason_code": [
+    "100", "200"
+  ],
+  "override_reason_desc": [
+    "Special Pricing",
+    "Promotion"
+  ],
+"label_packing_sku": {
+  "sku_code": "SKULP0001",
+  "inner_carton_code": "FedEx_Box_Small_1",
+  "country_of_origin":"CN",
+  "weight": "0.5"
+  },
+"sku_for_label_packing": "SKU0021",
+"group_name" : {
+  "WH Manager_1": ["Can add group","Can change group","Can delete group"]
+ },
+
+"count_mode": "",
+"freeze_inventory": "",
+"instant_recount_attempts": "",
+"select_all_location_types": "",
+"location_types": "A919190B, A919191B ",
+"sku_code_list": "",
+"sku_barcodes_list": "A919194B",
+"location_barcode_start": "",
+"location_barcode_end": "" 
+}

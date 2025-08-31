@@ -1,0 +1,90 @@
+{
+    "customer": {
+        "address1": "972 Hollandsworth Ave",
+        "address2": "",
+        "city": "Las Vegas",
+        "country": "US",
+        "phone_number": "7028848598",
+        "state": "NV",
+        "zipcode": "89123",
+        "first_name": "Madison",
+        "last_name": "Mahnesmith",
+        "email": "test@test.com"
+
+    },
+    "order_date": "2025-01-09 08:00:00",
+    "po_number": "",
+    "hold_reason": "",
+    "payment": [
+        {
+            "address": {
+                "address1": "100 Essex St.",
+                "address2": "",
+                "city": "NY",
+                "state": "NY",
+                "zipcode": "10001",
+                "country": "US"
+            },
+            "authorization": [
+                {
+                    "amount": 164.81,
+                    "auth_code": "00"
+                }
+            ],
+            "card_code": "CASH",
+            "first_name": "Fito",
+            "last4": "2069",
+            "last_name": "Paez",
+            "email": "test@test.com"
+        }
+    ],
+    "shipto": [
+        {
+            "first_name": "Juan Perez",
+            "last_name": "",
+            "company": "Offices/Distribution Center",
+            "email": "test@test.com",
+            "address": {
+                 "address1": "123 Main St",
+                 "address2": "",
+                 "city": "NY",
+                 "state": "New York",
+                 "zipcode": "10021",
+                 "country": "US",
+                 "phone_number": "6717774808",
+                 "email": "test@test.com"
+            }, 
+            "attributes": {},
+            
+            
+            "detail_set": [
+                {
+                    "attributes": {
+                    },
+                    "county_tax": 0,
+                    "current_price": 14.50,
+                    "discount": 0,
+                    "local_tax": 0.0,
+                    "override_discount": 0,
+                    "qty_ordered": 1,
+                    "sku": "SKU0001",
+                    "state_tax": 0.0
+                }
+
+            ],
+        "discounts_amount": 0,
+        
+        "ship_code": "FGND",
+        "shipping": 0.00,
+        "shipping_tax": 0,
+        "subtotal_amount": 1.00,
+        "tax_amount": 0.00,
+        "total_amount": 1.00
+        }
+    ],
+    "source_code": "web",
+    "attributes": { 
+    }
+ 
+}
+

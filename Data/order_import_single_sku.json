@@ -1,0 +1,99 @@
+{
+    "customer": {
+        "address1": "10333 Sanden Drive",
+        "address2": "",
+        "city": "Dallas",
+        "country": "US",
+        "phone_number": "",
+        "state": "TX",
+        "zipcode": "75238",
+        "first_name": "Ryana",
+        "last_name": "Perna",
+        "company": "",
+        "email": "ryanperna+101@gmail.com"
+    },
+    "order_date": "2025-01-08 08:00:00",
+    "po_number": "",
+    "hold_reason": "",
+    "payment": [
+        {
+            "address": {
+                "address1": "6515 Heliotrope Ave",
+                "address2": "",
+                "city": "Bell",
+                "state": "CA",
+                "zipcode": "90201",
+                "country": "US",
+                "phone_number": "684-252-9180"
+            },
+            "authorization": [
+                {
+                    "amount": 164.81,
+                    "auth_code": "00"
+                }
+            ],
+            "card_code": "NC",
+            "first_name": "Ryana",
+            "last4": "2069",
+            "last_name": "Perna",
+            "email": "ryanperna+101@gmail.com"
+        }
+    ],
+    "shipto": [
+        {
+           "address": {
+                    "address1": "1243 W Pierce St",
+                    "address2": "",
+                    "city": "Houston",
+                    "state": "TX",
+                    "zipcode": "77019",
+                    "country": "US",
+                    "phone_number": "6717774808"
+                }, 
+            "attributes": {
+                 
+            }
+            ,
+            "detail_set": [
+                {
+                    "attributes": {},
+                    "county_tax": 0,
+                    "current_price": 14.50,
+                    "discount": 0,
+                    "local_tax": 0.0,
+                    "override_discount": 0,
+                    "qty_ordered": 4,
+                    "sku": "BEBE-SS-280NS-7",
+                    "state_tax": 0.0
+                },
+                {
+                    "attributes": {},
+                    "county_tax": 0,
+                    "current_price": 14.50,
+                    "discount": 0,
+                    "local_tax": 0.0,
+                    "override_discount": 0,
+                    "qty_ordered": 4,
+                    "sku": "BEBE-SS-280NS-11",
+                    "state_tax": 0.0
+                } 
+            ],
+            "discounts_amount": 0,
+            "first_name": "John",
+            "last_name": "the Test",
+            "company": "Compass Co.",
+            "email": "ryanperna@test.com",
+            "ship_code": "CSU",
+            "shipping": 0.00,
+            "shipping_tax": 0,
+            "subtotal_amount": 18.00,
+            "tax_amount": 0.00,
+            "total_amount": 20.00
+        }
+    ],
+    "source_code": "PreDimmed",
+    "attributes": { 
+    }
+ 
+}
+
